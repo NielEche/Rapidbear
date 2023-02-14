@@ -1,5 +1,13 @@
 # rapidbear
 
+
+
+## About The Project
+```
+A web application to buy, trade and hold crypto swiftly.
+```
+
+
 ## Project setup
 ```
 npm install
