@@ -2,7 +2,7 @@
   <div class="home">
 
 <!-- First section on home page - get started and welcome-->
-<div class="p38 column is-half">
+  <div class="p38 column is-half h900">
        <h2 class=" menlo color-black mt-5 f50">Transact Crypto,<br>easily.</h2>
        <p class=" mt-2 color-black latoregular fsmall">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
         eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -45,7 +45,7 @@
             <article>
               <div class="media-left bg-white">
                 <figure>
-                  <img width="450" height="144" src="https://res.cloudinary.com/nieleche/image/upload/v1674530353/verify_izvhmn.png" alt="Image">
+                  <img height="144" src="https://res.cloudinary.com/nieleche/image/upload/v1674530353/verify_izvhmn.png" alt="Image">
                 </figure>
               </div>
               <div class="media-content media-left bg-white">
@@ -64,7 +64,7 @@
             <article>
               <div class="media-left bg-white">
                 <figure>
-                  <img width="450" height="144" src="https://res.cloudinary.com/nieleche/image/upload/v1674530481/fund_qj6csw.png" alt="Image">
+                  <img height="144" src="https://res.cloudinary.com/nieleche/image/upload/v1674530481/fund_qj6csw.png" alt="Image">
                 </figure>
               </div>
               <div class="media-content media-left bg-white">
@@ -83,7 +83,7 @@
             <article>
               <div class="media-left bg-white">
                 <figure>
-                  <img width="450" height="144" src="https://res.cloudinary.com/nieleche/image/upload/v1674530483/trade_crnhwv.png" alt="Image">
+                  <img height="144" src="https://res.cloudinary.com/nieleche/image/upload/v1674530483/trade_crnhwv.png" alt="Image">
                 </figure>
               </div>
               <div class="media-content media-left bg-white">
@@ -136,7 +136,7 @@
 
           <div class="column mt-4 text-right">
             <h1 class="menlo color-white f30 text-right  is-half">Trade with<br> Confidence.</h1>
-            <p class="pt-2 lato f13 color-white text-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            <p class="pt-2 lato fsmall color-white text-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
             <a class="text-right f20 color-white"> <strong>JOIN THE ACADEMY</strong></a>
@@ -185,7 +185,6 @@
               </div>
           </div>
       </div>
-
 
   </div>
 

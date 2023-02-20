@@ -50,11 +50,8 @@
                 <a class=""><strong>About</strong></a>
                 <ul>
                   <li><a>About Us</a></li>
-                  <li><a>Careers</a></li>
                   <li><a>News</a></li>
                   <li><a>Contact</a></li>
-                  <li><a>Partners</a></li>
-                  <li><a>NFT</a></li>
                 </ul>
               </li>
             </ul>
@@ -92,11 +89,9 @@
                   <li><a>Prices</a></li>
                   <li><a>FAQs</a></li>
                   <li><a>Help Center</a></li>
-                  <li><a>WitGive Us Feedback</a></li>
-                  <li><a>APIs</a></li>
-                  <li><a>Fees</a></li>
-                  <li><a>Privacy_Policy</a></li>
-                  <li><a>Terms of suystem</a></li>
+                  <li><a>Give Us Feedback</a></li>
+                  <li><a>Privacy Policy</a></li>
+                  <li><a>Terms of system</a></li>
                   <li><a>Cookie Pollicy</a></li>
                 </ul>
               </li>
@@ -181,6 +176,7 @@ export default {
   font-family: "Latobold", Helvetica, Arial !important;
 }
 
+
 .Homeheader {
   background: url("./assets/bg.png") no-repeat center center
     fixed;
@@ -206,7 +202,7 @@ export default {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size:685px 511px;
+  background-size:cover;
  
 }
 
@@ -227,7 +223,9 @@ export default {
 }
 
 
-
+.h900{
+  height:900px !important;
+}
 
 .profile-picture {
   border-radius: 50%;
@@ -248,7 +246,7 @@ export default {
   padding: 13rem 0rem !important;
 }
 .px100{
-  padding: 8rem 2rem !important;
+  padding: 8rem 4rem !important;
 }
 
 .f13{
@@ -260,7 +258,7 @@ export default {
 }
 
 .fsmall{
-  font-size: 0.9rem !important;
+  font-size: 1.125rem !important;
 }
 
 .f20{
@@ -308,6 +306,10 @@ export default {
 
 .color-black{
   color:#000 !important;
+}
+
+.bg-gray{
+  background-color:#2E2D2D !important;
 }
 
 .bg-black{
@@ -377,14 +379,16 @@ export default {
 		}
 
 
-
-
-
 input:focus,
 select:focus,
 textarea:focus,
 button:focus {
 	outline: none;
+}
+
+
+.width100px{
+  width:100px;
 }
 
 </style>

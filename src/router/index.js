@@ -6,6 +6,9 @@ import PassResetView from '../views/auth/PassResetView.vue'
 import PassResetView2 from '../views/auth/PassResetView2.vue'
 import VerifyAccount from '../views/auth/VerifyAccount.vue'
 import MyDashboard from '../views/profile/MyDashboard.vue'
+import mySettings from '../views/profile/mySettings.vue'
+import kycVerification from '../views/profile/kycVerification.vue'
+import myPayments from '../views/profile/myPayments.vue'
 
 const routes = [
   {
@@ -44,8 +47,21 @@ const routes = [
     path: '/MyDashboard',
     name: 'MyDashboard',  
     component: MyDashboard
+  },  {
+    path: '/mySettings',
+    name: 'mySettings',  
+    component: mySettings
+  }, {
+    path: '/kycVerification',
+    name: 'kycVerification',  
+    component: kycVerification
+  }, {
+    path: '/myPayments',
+    name: 'myPayments',  
+    component: myPayments
   },
 ]
+
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
