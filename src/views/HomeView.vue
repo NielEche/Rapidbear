@@ -9,7 +9,7 @@
         Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
       <router-link to="/log-in"  class="button bg-purple color-white fsmall my-5">Get Started </router-link>
 
-      <div class="start is-flex is-justify-content-space-between mt-5 menlo f20 color-black">
+      <div class="start is-flex is-justify-content-space-between mt-5 menlo f30 color-black">
           <div>
             <div>
               20M+ 

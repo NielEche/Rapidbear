@@ -9,6 +9,7 @@ import MyDashboard from '../views/profile/MyDashboard.vue'
 import mySettings from '../views/profile/mySettings.vue'
 import kycVerification from '../views/profile/kycVerification.vue'
 import myPayments from '../views/profile/myPayments.vue'
+import counterView from '../views/counterView.vue'
 
 const routes = [
   {
@@ -59,6 +60,10 @@ const routes = [
     path: '/myPayments',
     name: 'myPayments',  
     component: myPayments
+  },{
+    path: '/counterView',
+    name: 'counterView',  
+    component: counterView
   },
 ]
 

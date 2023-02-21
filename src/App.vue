@@ -17,8 +17,18 @@
         <div class="navbar-menu" id="navbar-menu" v-bind:class="{'is-active': showMobileMenu }">
           <div class="navbar-end">  
             <router-link to="/about" class="navbar-item fsmall latobold px-5">About</router-link>
-            <router-link to="/products" class="navbar-item fsmall latobold px-5">Products</router-link>
-            <router-link to="/company" class="navbar-item fsmall latobold px-5">Company</router-link>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link fsmall latobold">
+                Products
+              </a>
+
+              <div class="navbar-dropdown">
+                <router-link to="/counterView" class="navbar-item fsmall latobold px-5">
+                  Counter
+                </router-link>
+                <router-link to="/log-in" class="navbar-item fsmall latobold px-5">Products</router-link>
+              </div>
+            </div>
             <router-link to="/learn" class="navbar-item fsmall latobold px-5">Learn</router-link>
           </div>
 
@@ -49,9 +59,9 @@
               <li>
                 <a class=""><strong>About</strong></a>
                 <ul>
-                  <li><a>About Us</a></li>
+                  <li><router-link to="/about">About Us</router-link></li>
                   <li><a>News</a></li>
-                  <li><a>Contact</a></li>
+                  <li><router-link to="/contact">Contact</router-link></li>
                 </ul>
               </li>
             </ul>
@@ -61,9 +71,8 @@
               <li>
                 <a class=""><strong>Product</strong></a>
                 <ul>
-                  <li><a>Exchange</a></li>
-                  <li><a>Merch</a></li>
-                  <li><a>Rapid Token</a></li>
+                  <li><router-link to="/counterView"> Counter</router-link></li>
+                  <li><router-link to="/log-in">Rapid Pay Gateway</router-link></li>
                 </ul>
               </li>
             </ul>
@@ -73,10 +82,10 @@
               <li>
                 <a class=""><strong>Service</strong></a>
                 <ul>
-                  <li><a>Buy Crypto</a></li>
-                  <li><a>Wallet</a></li>
-                  <li><a>Fund</a></li>
-                  <li><a>Withdraw</a></li>
+                  <li><router-link to="/log-in">Buy Crypto</router-link></li>
+                  <li><router-link to="/log-in">Wallet</router-link></li>
+                  <li><router-link to="/log-in">Fund</router-link></li>
+                  <li><router-link to="/log-in">Withdraw</router-link></li>
                 </ul>
               </li>
             </ul>
@@ -92,7 +101,6 @@
                   <li><a>Give Us Feedback</a></li>
                   <li><a>Privacy Policy</a></li>
                   <li><a>Terms of system</a></li>
-                  <li><a>Cookie Pollicy</a></li>
                 </ul>
               </li>
             </ul>
@@ -209,6 +217,24 @@ export default {
 
 .buy-ad {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./assets/buyad.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover ;
+
+}
+
+.about-home {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://res.cloudinary.com/nieleche/image/upload/v1675394053/Mask_group_bajxj7.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover ;
+
+}
+
+.about-home2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./assets/bgrapid.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
