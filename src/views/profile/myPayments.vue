@@ -22,36 +22,40 @@
                 <div class="column mt-4 w-100 is-12 has-text-left">
                  <div class="p-2 is-flex is-justify-content-space-between">
                     <div class="px-2">
-                      <div class="title is-2 color-white mb-1 ">Manage Payments</div>
+                      <h3 class="my-0 py-0 is-2 color-white mb-1 f30 latobold">Manage Payments</h3>
                     </div>
-                    <img class="mx-2" width="100" src="https://res.cloudinary.com/nieleche/image/upload/v1675997097/mdi_account-cash-outline_xvmfk3.png" alt="settings">
-                  </div> 
+                    <div class="px-2">
+                        <img  width="50" src="https://res.cloudinary.com/nieleche/image/upload/v1675997097/mdi_account-cash-outline_xvmfk3.png" alt="settings">
+                    </div>
+                   </div> 
                 </div>
               </div>
               
                 <div class="columns is-multiline bg-darkgray">
-                    <div class="column is-12 px-6 py-5">
+                    <div class="column is-12 px-5 py-5">
                     <div class="box bg-gray color-white">
                         <div class="">
                             <div class="px-2">
-                                <div class="title is-2 color-white mb-1 ">Deposit</div>
-                                <div class="heading color-white">Deposit quickly and safely to your account.</div>
+                                <h2 class="f30 is-2 color-white latobold">
+                                    Deposit
+                                </h2>
+                                <p class="fsmall latoregular upper color-white">Deposit quickly and safely to your account.</p>
                             </div>
                         </div>
                         <hr>
 
                         
                         <div class="is-flex is-justify-content-space-between my-4">
-                            <div class="f16 ">
-                                <span class="fsmall">
+                            <div>
+                                <p class="fsmall latoregular">
                                     Requirements <br>
                                     <ul>
                                         <li>- Deposit type</li>
                                     </ul> 
-                                </span>
+                                </p>
                             </div>
                             <div class="pt-0 mt-0">
-                                <router-link to=""  class="button width100px mx-2 is-ghost bg-purple color-white textdecoration-none fsmall my-5">Begin</router-link>
+                                <router-link to=""  class="button mx-2 is-ghost bg-purple color-white textdecoration-none fsmall">Begin</router-link>
                             </div>
                         </div>
                     </div>
@@ -61,30 +65,32 @@
 
 
                 <div class="columns is-multiline bg-darkgray">
-                    <div class="column is-12 px-6 py-5">
+                    <div class="column is-12 px-5 py-5">
                         <div class="box bg-gray color-white">
                             <div class="">
                                 <div class="px-2">
-                                    <div class="title is-2 color-white mb-1 ">Withdraw</div>
-                                    <div class="heading color-white">Withdraw from your account.</div>
+                                    <h2 class="f30 is-2 color-white latobold">
+                                        Withdraw
+                                    </h2>
+                                    <p class="fsmall latoregular upper color-white">Withdraw from your account.</p>
                                 </div>
                             </div>
                             <hr>
 
                             
-                            <div class="is-flex is-justify-content-space-between my-4">
+                            <div class=" my-4">
                                 <div class="is-flex ">
                                     <div>
-                                        <p class="heading">Account Balance:</p>
-                                    <h1 class="f30 latoregular">0.00000000 BTC</h1>
+                                        <p class="fsmall latoregular">Account Balance:</p>
+                                        <h2 class="latobold">0.00000000 BTC</h2>
                                     </div>
                                     <div class="px-6">
-                                        <p class="heading">Estimated Value:</p>
-                                    <h1 class="f30 latoregular">N0.00</h1>
+                                        <p class="fsmall latoregular">Estimated Value:</p>
+                                        <h2 class=" latobold">N0.00</h2>
                                     </div>
                                 </div>
                                 <div class="pt-0 mt-0">
-                                    <router-link to=""  class="button width100px mx-2 is-ghost bg-purple color-white textdecoration-none fsmall my-5">Withdraw</router-link>
+                                    <router-link to=""  class="button is-ghost bg-purple color-white textdecoration-none fsmall my-5">Withdraw</router-link>
                                 </div>
                             </div>
                         </div>
@@ -92,12 +98,14 @@
                 </div>
 
                 <div class="columns is-multiline bg-darkgray">
-                    <div class="column is-12 px-6 py-5">
+                    <div class="column is-12 px-5 py-5">
                         <div class="box bg-gray color-white">
                             <div class="">
                                 <div class="px-2">
-                                    <div class="title is-2 color-white mb-1 ">Notifications</div>
-                                    <div class="heading color-white">See all your recent transactions here.</div>
+                                    <h2 class="f30 is-2 color-white latobold">
+                                        Notifications
+                                    </h2>
+                                    <p class="fsmall latoregular upper color-white">See all your recent transactions here.</p>
                                 </div>
                             </div>
                             <hr>
@@ -106,18 +114,20 @@
                             <div class="my-4">
                                 <div class="">
                                     <div class="is-flex py-2  is-justify-content-space-between">
-                                    <div class="heading">Web - Port Harcourt</div>
-                                    <div class="title fsmall   color-white">2022-07-25 10:02:09</div>
+                                    <p class="upper fsmall latobold">Web - Port Harcourt</p>
+                                    <p class=" fsmall   color-white">2022-07-25 10:02:09</p>
                                     </div>
                                     <div class="is-flex py-2 is-justify-content-space-between">
-                                    <div class="heading">Web - Port Harcourt</div>
-                                    <div class="title fsmall   color-white">2022-07-25 10:02:09</div>
+                                    <p class="upper fsmall latobold">Web - Port Harcourt</p>
+                                    <p class="title fsmall   color-white">2022-07-25 10:02:09</p>
                                     </div>
                                     <div class="is-flex py-2 is-justify-content-space-between">
-                                    <div class="heading">Web - Port Harcourt</div>
-                                    <div class="title fsmall   color-white">2022-07-25 10:02:09</div>
+                                    <p class="upper fsmall latobold">Web - Port Harcourt</p>
+                                    <p class="title fsmall   color-white">2022-07-25 10:02:09</p>
                                     </div>
-                                
+
+                                    <button  class="button is-ghost bg-purple color-white textdecoration-none fsmall my-5">See All</button>
+                      
                                 </div>
                             </div>
                         </div>

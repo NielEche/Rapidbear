@@ -1,17 +1,17 @@
 <template>
   <!--About Header-->
-   <div class="About about-home mt-5">
-      <div class="container is-max-desktop">
+   <div class="About about-home ">
+      <div class="container is-max-desktop px-2">
         <h1 class="column is-half is-offset-one-quarter menlo color-white f40 text-center p200 px-3">Amazing People At RapidBear</h1>
       </div>
     </div>
 
     <!--About text-->
-    <div class="start-steps about-home2 bg-purple py-6">
-      <div class="container  py-6">
+    <div class="start-steps about-home2  bg-purple py-6">
+      <div class="container  is-max-desktop py-6 px-2">
         <h1 class="menlo color-white f20 text-center py-5">About RAPIDBEAR</h1>
-        <p class="text-left fsmall latoregular color-white px-3 py-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-        <p class="text-left fsmall latoregular color-white px-3 py-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p class="text-left f16 latoregular color-white px-3 py-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        <p class="text-left f16 latoregular color-white px-3 py-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
     </div>
 
@@ -30,23 +30,23 @@
     </div>
 
     <!--stats-->
-    <div class="bg-purple">
+    <div class="buy-ad bg-purple">
         <div class="container py-6">
-          <div class="start is-flex is-justify-content-space-between menlo f30 color-white py-6 px-3">
+          <div class="start is-flex is-justify-content-space-between menlo f20 color-white py-6 px-3">
           <div>
-            <div>
+            <p>
               20M+ 
-            </div>
+            </p>
             <div class="f13 latoregular">Registered users</div>
           </div>
 
           <div>
-            <div> 300M+ </div>
+            <p> 300M+ </p>
             <div class="f13 latoregular">Transactions completed</div>
           </div>
           
           <div>
-            <div> 0.10%  </div>
+            <p> 0.10%  </p>
             <div class="f13 latoregular">Lowest transaction fee</div>
         </div>
       </div>
@@ -57,8 +57,8 @@
     
 
       <!-- Account completion steps section -->
-    <div class="start-steps bg-black">
-      <div class="container py-6">
+    <div class="start-steps bg-black px-3">
+      <div class="container py-6 ">
         <h1 class="menlo color-white f20 text-center py-5">Meet The Team</h1>
 
         <!-- Steps-->
@@ -72,7 +72,7 @@
               </div>
               <div class="media-content media-left bg-white">
                 <div class="content p16">
-                  <p class="f20 mb-0">
+                  <p class="f16 mb-0">
                     <strong class="">Lorem Ipsum</strong>
                   </p>
                     <small class="f13">Founder/CEO</small> 
@@ -90,10 +90,10 @@
               </div>
               <div class="media-content media-left bg-white">
                 <div class="content p16">
-                  <p class="f20 mb-0">
+                  <p class="f16 mb-0">
                     <strong class="">Lorem Ipsum</strong>
                   </p>
-                    <small class="f13">Chief Operating Officer</small> 
+                    <small class="f13">COO</small> 
                 </div>
               </div>
             </article>
@@ -108,10 +108,10 @@
               </div>
               <div class="media-content media-left bg-white">
                 <div class="content p16 ">
-                  <p class="f20 mb-0">
+                  <p class="f16 mb-0">
                     <strong class="">Lorem Ipsum</strong>
                   </p>
-                    <small class="f13">Chief Technology Officer</small> 
+                    <small class="f13">CTO</small> 
                 </div>
               </div>
             </article>

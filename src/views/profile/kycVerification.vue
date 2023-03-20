@@ -22,54 +22,58 @@
                 <div class="column mt-4 w-100 is-12 has-text-left">
                  <div class="p-2 is-flex is-justify-content-space-between">
                     <div class="px-2">
-                      <div class="title is-2 color-white mb-1 ">KYC Verification</div>
+                      <h3 class="my-0 py-0 is-2 color-white mb-1 f30 latobold">KYC Verification</h3>
                     </div>
-                    <img class="mx-2" width="100" src="https://res.cloudinary.com/nieleche/image/upload/v1675997097/Frame_1_vj3ttp.png" alt="settings">
+                    <div class="px-2">
+                        <img  width="50" src="https://res.cloudinary.com/nieleche/image/upload/v1675997097/Frame_1_vj3ttp.png" alt="settings">
+                    </div>
+                  
                   </div> 
                 </div>
               </div>
               
               <div class="columns is-multiline bg-darkgray">
-                <div class="column is-12 px-6 py-5">
+                <div class="column is-12 px-5 py-5">
                   <div class="box bg-gray color-white">
                     <div class="">
-                      <div class="heading f16">Current Status</div>
+                      <p class="upper fsmall latoregular">Current Status</p>
                     </div>
                     <hr>
 
                     <form action="">
                         <div class="is-flex is-justify-content-space-between my-3">
-                            <div class=" f16">
+                            <p class="latoregular fsmall">
                                 Your account is currently not verified.
                                 <br>
                                 <span>
                                     Complete verification to access services on RapidBear.
                                 </span>
-                            </div>
+                              </p>
                             <div class="pt-0 mt-0">
-                                <img width="100" src="https://res.cloudinary.com/nieleche/image/upload/v1676923210/ic_baseline-verified-user_wszu0s.png" alt="">
+                                <img width="50" src="https://res.cloudinary.com/nieleche/image/upload/v1676923210/ic_baseline-verified-user_wszu0s.png" alt="">
                             </div>
                         </div>
                         <hr>
 
-
-                        <div> Verified</div>
-                        <div class="is-flex is-justify-content-space-between my-4">
-                            <div class="f16 is-flex ">
-                                <div>
-                                    <span class="fsmall">
-                                        Requirements <br>
+                        <p class="upper fsmall latoregular">Verified</p>
+                        <div class="my-4">
+                            <div class="fsmall latoregular is-flex ">
+                              <div class="px-2">
+                                <p>
+                                  Requirements
+                                </p>
+                                <p class="fsmall">
                                         <ul>
                                             <li>- Personal information</li>
                                             <li>- Government-issued ID</li>
                                             <li>- Facial recognition</li>
                                         </ul> 
-                                    </span>
-                                </div>
-                                <div class="px-3">
-                                    <span class="fsmall">
-                                        Features
-                                        <br>
+                                </p>
+                              </div>
+
+                                <div class="px-2">
+                                    <p>Features</p>
+                                    <p class="fsmall">
                                         <ul>
                                             <li>-  Fiat Deposit & Withdrawal Limits $50K Daily</li>
                                             <li>- Crypto Deposit Limit Unlimited</li>
@@ -77,13 +81,13 @@
                                             <li>- P2P Transaction Limits Unlimited</li>
                                             <li>- Other Features LPD/OTC </li>
                                         </ul> 
-                                    </span>
+                                    </p>
                                 </div>
 
                             </div>
-                        <div class="pt-0 mt-0">
-                            <router-link to=""  class="button width100px mx-2 is-ghost bg-purple color-white textdecoration-none fsmall my-5">Begin</router-link>
-                        </div>
+                          <div class="pt-0 mt-0">
+                              <router-link to=""  class="button  mx-2 is-ghost bg-purple color-white textdecoration-none fsmall my-5">Begin</router-link>
+                          </div>
                         </div>
                     </form>
                   </div>
@@ -93,20 +97,20 @@
 
 
               <div class="columns is-multiline bg-darkgray">
-                <div class="column is-12 px-6 py-5">
+                <div class="column is-12 px-5 py-5">
                   <div class="box bg-gray color-white">
                     <div class="">
-                      <div class="heading f16">Current Status</div>
+                      <p class="fsmall latoregular upper">Current Status</p>
                     </div>
                     <hr>
 
                         <div class="is-flex is-justify-content-space-between my-3">
-                            <div class="heading f16">
+                            <p class="latoregular fsmall">
                                 Your account is currently verified.
                                 <br>
-                            </div>
+                            </p>
                             <div class="pt-0 mt-0">
-                                <img width="100" src="https://res.cloudinary.com/nieleche/image/upload/v1676923210/Vector_zwnhny.png" alt="">
+                                <img width="40" src="https://res.cloudinary.com/nieleche/image/upload/v1676923210/Vector_zwnhny.png" alt="">
                             </div>
                         </div>
                         <hr>

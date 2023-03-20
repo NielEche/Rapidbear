@@ -21,85 +21,88 @@
               <div class="level">
                 <div class="column mt-4 w-100 is-12 has-text-left">
                  <div class="p-2 is-flex is-justify-content-space-between">
+                   
                     <div class="px-2">
-                      <div class="title is-2 color-white mb-1 ">Settings</div>
-                      <div class="heading color-white">Make changes to your Rapidbear Account.</div>
+                      <h3 class="my-0 py-0 is-2 color-white mb-1 f30 latobold">Settings</h3>
+                      <p class="upper fsmall latoregular  color-white">Make changes to your Rapidbear Account.</p>
                     </div>
-                    <img class="mx-2" width="100" src="https://res.cloudinary.com/nieleche/image/upload/v1675997097/carbon_settings-adjust_xdipic.png" alt="settings">
+                    <div class="px-2">
+                        <img  width="50" src="https://res.cloudinary.com/nieleche/image/upload/v1675997097/carbon_settings-adjust_xdipic.png" alt="settings">
+                    </div>
                   </div> 
                 </div>
               </div>
               
               <div class="columns is-multiline bg-darkgray">
-                <div class="column is-12 px-6 py-5">
+                <div class="column is-12 px-5 py-5">
                   <div class="box bg-gray color-white">
                     <div class="">
-                      <div class="heading f16">My Profile</div>
+                      <p class="upper latoregular fsmall">My Profile</p>
                     </div>
                     <hr>
 
                     <form action="">
                         <div class="is-flex is-justify-content-space-between my-3">
-                            <div class=" f16">
+                            <p class=" latoregular f16">
                                 Username
                                 <br>
                                 <span>
                                     Anonymous-User-00153
                                 </span>
-                            </div>
+                              </p>
                         <div class="pt-0 mt-0">
-                            <router-link to=""  class="button width100px mx-2 is-ghost bg-purple color-white textdecoration-none fsmall my-5">Edit</router-link>
+                            <router-link to=""  class="button mx-2 is-ghost bg-purple color-white textdecoration-none fsmall my-5">Edit</router-link>
                         </div>
                         </div>
 
                         <div class="is-flex is-justify-content-space-between my-4">
-                            <div class="f16">
+                            <p class="latoregular f16">
                                 Avatar
                                 <br>
                                 <span>
                                     <img class="profile-picture" src="https://unsplash.it/300/300/?random&pic=1(14 kB)" alt="profile-picture">
                                 </span>
-                            </div>
+                              </p>
                         <div class="pt-0 mt-0">
-                            <router-link to=""  class="button width100px mx-2 is-ghost bg-purple color-white textdecoration-none fsmall my-5">Change</router-link>
+                            <router-link to=""  class="button mx-2 is-ghost bg-purple color-white textdecoration-none fsmall my-5">Change</router-link>
                         </div>
                         </div>
 
 
                         <div class="is-flex is-justify-content-space-between my-4">
-                            <div class="f16">
+                            <p class="latoregular f16">
                                 P2P Profile Settings
                                 <br>
                                 <span>
                                     Edit your P2P nickname here.
                                 </span>
-                            </div>
+                              </p>
                         <div class="pt-0 mt-0">
-                            <router-link to=""  class="button width100px mx-2 is-ghost bg-purple color-white textdecoration-none fsmall my-5">Manage</router-link>
+                            <router-link to=""  class="button  mx-2 is-ghost bg-purple color-white textdecoration-none fsmall my-5">Manage</router-link>
                         </div>
                         </div>
                     </form>
                   </div>
                 </div>
 
-                 <div class="column is-12 px-6 py-5">
+                 <div class="column is-12 px-5 py-5">
                   <div class="box bg-gray color-white">
                     <div class="">
-                      <div class="heading f16">Preferences</div>
+                      <div class="latoregular upper fsmall">Preferences</div>
                     </div>
                     <hr>
 
                     <form action="">
                         <div class="is-flex is-justify-content-space-between">
-                            <div class="f16">
+                            <p class="fsmall latoregular">
                                 Order Confirmation Reminders
                                 <br>
-                                <span class="latoregular">
+                                <span class="">
                                     If the order reminder function is enabled, it will need to be reconfirmed every time an order is submitted.
                                 </span>
-                            </div>
+                            </p>
                         <div class="pt-0 mt-0">
-                            <router-link to=""  class="button width100px mx-2 is-ghost bg-purple color-white textdecoration-none fsmall my-5">Manage</router-link>
+                            <router-link to=""  class="button  mx-2 is-ghost bg-purple color-white textdecoration-none fsmall my-5">Manage</router-link>
                         </div>
                         </div>
                     </form>

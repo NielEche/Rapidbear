@@ -1,8 +1,8 @@
 <template>
     <!-- First section on home page - get started and welcome-->
-     <div class="p38 mt-6 column is-half">
-          <h2 class=" menlo color-black text-center py-4 f50"> Welcome to <br>Rapidbear!</h2>
-          <p class=" menlo color-black text-center py-4 ">Register</p>
+     <div class="p-6 column bg-purple">
+          <h2 class=" menlo color-white text-center py-4 f50"> Welcome to <br>Rapidbear!</h2>
+          <p class=" menlo color-white text-center py-4 ">Register</p>
           <form @submit.prevent="submitForm">
                   <div class="field pt-4">
                     <p class="control ">
@@ -38,11 +38,11 @@
                    </span>
                  </p>
                </div>
-               <div class="field pt-4">
+               <div class="field pt-4 color-white ">
                   <div class="control">
                     <label class="checkbox">
                       <input type="checkbox">
-                      I have read and agree to <a class="color-black f13" href="#"><strong>RapidBear’s Terms of Service and Privacy Policy.</strong></a>
+                      I have read and agree to <a class="color-white f13" href="#"><strong>RapidBear’s Terms of Service and Privacy Policy.</strong></a>
                     </label>
                   </div>
                 </div>
@@ -58,10 +58,11 @@
                     </button>
                </div>
                <div class="is-flex is-justify-content-space-between">
-                 <router-link to="/log-in"  class="fsmall color-black">Already Registered?<strong> Login Here</strong></router-link>
+                 <router-link to="/log-in"  class="fsmall color-white">Already have an account?<strong> Login Here</strong></router-link>
                </div>
              </form>
        </div>
+       
    
    </template>
    

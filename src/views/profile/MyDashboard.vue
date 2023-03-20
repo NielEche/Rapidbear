@@ -33,26 +33,26 @@
               <div class="columns is-multiline">
                 <div class="column is-12">
                   <div class="panel p-3 ">
-                    <div class="panel-heading p-6 bg-purplegradient color-white latoregular">
+                    <div class="panel-heading px-5 py-6 bg-purplegradient color-white latoregular">
                       <div class="is-flex is-justify-content-space-between">
-                        <h1 class="title is-2 color-white latoregular">
+                        <h2 class="f30 is-2 color-white latobold">
                         Welcome to RapidBear !  
-                      </h1>
-                        <button  class="button width100px is-ghost bg-purple color-white textdecoration-none fsmall my-5"> Verify</button>
+                      </h2>
+                        <button class="button is-ghost bg-purple color-white textdecoration-none fsmall my-5 w30"> Verify</button>
                       </div>
-                      <p>Last login time: 2022-07-25 10:02:0</p>
-                      <p> IP: 41.184.244.76</p>
-                      <button  class="button width100px is-ghost bg-purple color-white textdecoration-none fsmall my-5">Hide Balance</button>
+                      <p class="fsmall">Last login time: 2022-07-25 10:02:0</p>
+                      <p class="fsmall"> IP: 41.184.244.76</p>
+                      <button  class="button w30 is-ghost bg-purple color-white textdecoration-none fsmall my-5">Hide Balance</button>
                      
                      
                       <div class="is-flex ">
-                        <div>
-                            <p class="heading">Account Balance:</p>
-                           <h1 class="f30 latoregular">0.00000000 BTC</h1>
+                        <div class="pr-3">
+                            <p class="fsmall latoregular">Account Balance:</p>
+                           <h2 class="latobold">0.00000000 BTC</h2>
                         </div>
-                        <div class="px-6">
-                            <p class="heading">Estimated Value:</p>
-                           <h1 class="f30 latoregular">N0.00</h1>
+                        <div class="px-3">
+                            <p class="fsmall latoregular">Estimated Value:</p>
+                           <h2 class=" latobold">N0.00</h2>
                         </div>
                       </div>
                     </div>
@@ -67,21 +67,21 @@
                 <div class="column is-8">
                   <div class="box bg-gray color-white">
                     <div class="is-flex is-justify-content-space-between">
-                      <div class="heading f16">Balance Details</div>
+                      <p class="upper fsmall latoregular">Balance Details</p>
                       <div class="pt-0 mt-0">
-                        <router-link to="/deposit"  class="button width100px mx-2 is-ghost bg-purple color-white textdecoration-none fsmall my-5">Deposit</router-link>
-                        <router-link to="/withdraw"  class="button width100px is-ghost bg-purple color-white textdecoration-none fsmall my-5">Withdraw</router-link>
+                        <router-link to="/deposit"  class="button  mx-2 is-ghost bg-purple color-white textdecoration-none fsmall ">Deposit</router-link>
+                        <router-link to="/withdraw"  class="button  is-ghost bg-purple color-white textdecoration-none fsmall">Withdraw</router-link>
                      </div>
                     </div>
                     <div>
-                      <button  class="button width100px is-ghost bg-purple color-white textdecoration-none fsmall my-5">Hide Balance</button>
+                      <button  class="button w30 is-ghost bg-purple color-white textdecoration-none fsmall my-5">Hide Balance</button>
                       <div>
-                          <p class="heading">Account Balance:</p>
-                          <h1 class="f30 latoregular">0.00000000 BTC</h1>
+                          <p class="upper fsmall latoregular">Account Balance:</p>
+                          <h1 class="latobold ">0.00000000 BTC</h1>
                       </div>
                       <div class="pt-5">
-                          <p class="heading">Estimated Value:</p>
-                          <h1 class="f30 latoregular">N0.00</h1>
+                          <p class="upper fsmall latoregular">Estimated Value:</p>
+                          <h1 class=" latobold ">N0.00</h1>
                       </div>
                     </div>
                   
@@ -109,22 +109,22 @@
                 </div>
                 <div class="column is-4 ">
                   <div class="box bg-gray color-white">
-                    <div class="heading f16">Activity</div>
+                    <p class="upper fsmall latoregular">Activity</p>
                     <div class="">
                         <div class="is-flex py-2  is-justify-content-space-between">
-                          <div class="heading">Web - Port Harcourt</div>
-                          <div class="title fsmall   color-white">2022-07-25 10:02:09</div>
+                          <p class="upper fsmall latobold">Web - Port Harcourt</p>
+                          <p class=" fsmall   color-white">2022-07-25 10:02:09</p>
                         </div>
                         <div class="is-flex py-2 is-justify-content-space-between">
-                          <div class="heading">Web - Port Harcourt</div>
-                          <div class="title fsmall   color-white">2022-07-25 10:02:09</div>
+                          <p class="upper fsmall latobold">Web - Port Harcourt</p>
+                          <p class="title fsmall   color-white">2022-07-25 10:02:09</p>
                         </div>
                         <div class="is-flex py-2 is-justify-content-space-between">
-                          <div class="heading">Web - Port Harcourt</div>
-                          <div class="title fsmall   color-white">2022-07-25 10:02:09</div>
+                          <p class="upper fsmall latobold">Web - Port Harcourt</p>
+                          <p class="title fsmall   color-white">2022-07-25 10:02:09</p>
                         </div>
 
-                        <button  class="button width100px is-ghost bg-purple color-white textdecoration-none fsmall my-5">See All</button>
+                        <button  class="button is-ghost bg-purple color-white textdecoration-none fsmall my-5">See All</button>
                       
                     </div>
                   </div>

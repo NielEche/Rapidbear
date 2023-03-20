@@ -1,9 +1,9 @@
 <template>
   <div id="wrapper">
-    <div class="Homeheader" >
+    <div class="" >
       <nav class="navbar bg-transparent" >
         <div class="navbar-brand">
-          <router-link to="/" class="px-5 py-2">
+          <router-link to="/" class="px-6 py-2">
             <img alt="Rapidbear logo" width="100" height="40" src="https://res.cloudinary.com/nieleche/image/upload/v1674478276/Rapid_Logo_Purple_1_1_bajmiw.png">
           </router-link>
 
@@ -26,17 +26,17 @@
                 <router-link to="/counterView" class="navbar-item fsmall latobold px-5">
                   Counter
                 </router-link>
-                <router-link to="/log-in" class="navbar-item fsmall latobold px-5">Products</router-link>
+                <router-link to="/log-in" class="navbar-item fsmall latobold px-5">Rapid Pay Gateway</router-link>
               </div>
             </div>
             <router-link to="/learn" class="navbar-item fsmall latobold px-5">Learn</router-link>
           </div>
 
-          <div class="navbar-end">  
+          <div class="navbar-end ">  
             <div class="navbar-item">
               <div class="buttons px-5">
-                <router-link to="/log-in" class="fsmall color-white latobold px-5">Log In</router-link>
-                <router-link to="/register" class=" color-white fsmall is-responsive latobold px-5">Register</router-link>
+                <router-link to="/log-in" class="fsmall color-black latobold px-5">Log In</router-link>
+                <router-link to="/register" class=" color-black fsmall is-responsive latobold px-5">Register</router-link>
               </div>
             </div>
           </div>
@@ -50,7 +50,7 @@
     </div>
 
   
-    <footer class="footer bg-white pb-2">
+    <footer class="footer bg-white pb-2 color-purple">
               <!-- footer section -->
       <div class="container py-5 is-fluid ">
         <div class="columns pb-2">
@@ -69,7 +69,7 @@
           <div class="column ">
             <ul class="menu-list">
               <li>
-                <a class=""><strong>Product</strong></a>
+                <a class=""><strong>Products</strong></a>
                 <ul>
                   <li><router-link to="/counterView"> Counter</router-link></li>
                   <li><router-link to="/log-in">Rapid Pay Gateway</router-link></li>
@@ -80,9 +80,9 @@
           <div class="column">
             <ul class="menu-list">
               <li>
-                <a class=""><strong>Service</strong></a>
+                <a class=""><strong>Services</strong></a>
                 <ul>
-                  <li><router-link to="/log-in">Buy Crypto</router-link></li>
+                  <li><router-link to="/log-in">Buy / Sell Crypto</router-link></li>
                   <li><router-link to="/log-in">Wallet</router-link></li>
                   <li><router-link to="/log-in">Fund</router-link></li>
                   <li><router-link to="/log-in">Withdraw</router-link></li>
@@ -216,7 +216,7 @@ export default {
 
 
 .buy-ad {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./assets/buyad.png") no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./assets/rapidbg.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -260,6 +260,7 @@ export default {
 }
 
 
+
 .p16{
   padding: 1rem 1rem !important;
 }
@@ -284,7 +285,7 @@ export default {
 }
 
 .fsmall{
-  font-size: 1.125rem !important;
+  font-size: 0.6em !important;
 }
 
 .f20{
@@ -350,10 +351,26 @@ export default {
   text-align: right !important;
 }
 
+.upper{
+  text-transform: uppercase !important;
+}
+
 .fit {
   object-fit: cover;
   height: 100% !important;
   width:100% !important;
+}
+
+.w50 {
+  width: 50% !important;
+}
+
+.w40 {
+  width: 40% !important;
+}
+
+.w30 {
+  width: 30% !important;
 }
 
 .content {
@@ -415,6 +432,13 @@ button:focus {
 
 .width100px{
   width:100px;
+}
+
+a.navbar-item:hover, .navbar-link:hover, a.navbar-item:focus {
+  color:#540052 !important;
+}
+.navbar-link:not(.is-arrowless)::after{
+  border-color:#540052 !important;
 }
 
 </style>
