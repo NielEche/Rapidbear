@@ -1,14 +1,3 @@
-import { createStore } from 'vuex'
+// src/store/index.js
 
-export default createStore({
-  state: {
-  },
-  getters: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
-  modules: {
-  }
-})
+export * from './auth-store';
